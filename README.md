@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Eraah AI Website - Interview Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the frontend code for the Eraah AI website, developed as part of an interview assignment.
 
-## Available Scripts
+## Project Overview
 
-In the project directory, you can run:
+The assignment was to create a modern, responsive website for Eraah AI, a company that develops AI agents and SaaS platforms for NGOs. The website features a dark theme with an AI-inspired aesthetic, focusing on intuitive user experience and modern UI/UX principles.
 
-### `npm start`
+## Key Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* **Landing Page:** Showcases Eraah AI's services and mission with a visually appealing design and animations.
+* **About Page:** Provides information about the company, its mission, and values, including a video clip.
+* **Carousel:** Displays services with interactive cards and navigation.
+* **Responsive Design:** Ensures optimal viewing experience across various devices.
+* **Dark Theme:** Implements a consistent dark theme with turquoise and subtle blue accents.
+* **Modern UI/UX:** Incorporates modern UI/UX principles and animations for a smooth user experience.
+* **Footer:** Includes contact information, social media links, and an email signup form.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+* **React:** Frontend framework for building the user interface.
+* **Styled Components:** CSS-in-JS library for styling components.
+* **React Router DOM:** For client-side routing.
+* **React Icons:** For incorporating icons.
+* **Google Fonts:** For modern typography.
+* **Git:** For version control.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation and Running Instructions
 
-### `npm run build`
+1.  **Clone the repository:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ```bash
+    git clone <https://github.com/Tammanna71/eraah_website.git>
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2.  **Navigate to the project directory:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ```bash
+    cd eraah-ai-website
+    ```
 
-### `npm run eject`
+3.  **Install dependencies:**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    ```bash
+    npm install
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4.  **Start the development server:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    ```bash
+    npm start
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5.  **Open in Browser:**
 
-## Learn More
+    Open your web browser and navigate to `http://localhost:3000` to view the website.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Screenshots
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Landing Page:**
 
-### Code Splitting
+![Landing Page Screenshot](src/screenshots)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**About Page:**
 
-### Analyzing the Bundle Size
+![About Page Screenshot](src/screenshots/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Landing Page:**
 
-### Making a Progressive Web App
+![Video of both](src/screenshots/video.mp4)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Notes
 
-### Advanced Configuration
+* This project was created as an interview assignment and may not represent a fully production-ready application.
+* Placeholder images and video are used. You may replace them with your own assets.
+* The project uses React 18, so ensure you have a compatible Node.js and npm version.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
